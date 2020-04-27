@@ -1,0 +1,36 @@
+$desktopWidth: 960px;
+$tabletWidth: 768px;
+$mobileWidth: 415px;
+
+.container {
+  width: $desktopWidth;
+  display: flex;
+  flex-direction: column;
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.row > {
+  * {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: $desktopWidth) {
+  .container {
+    width: $tabletWidth;
+    
+    .row {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .container {
+    width: $mobileWidth;
+  }
+}
