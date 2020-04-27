@@ -75,5 +75,11 @@ body {
 @media (max-width: 768px) {
   .container {
     width: 415px; } }
+.box {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px; }
 
 /*# sourceMappingURL=saguaro.css.map */
