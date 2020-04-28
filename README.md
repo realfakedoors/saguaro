@@ -46,6 +46,28 @@ A simple container with a shadow, a border and some padding.
 
 ![](/static/screenshots/box.png)
 
+## Navbar
+
+A basic nav with a dropdown item available.
+
+```sh
+<nav class="navbar background-secondary">
+  <a class="navbar-item" href="#">Home</a>
+  <a class="navbar-item" href="#">About</a>
+  <a class="navbar-item" href="#">Contact</a>
+  <div class="navbar-item has-dropdown">
+    More
+    <div class="navbar-dropdown background-saguaro-green">
+      <a class="navbar-item" href="#">Company</a>
+      <hr class="navbar-divider">
+      <a class="navbar-item" href="#">Explore</a>
+    </div>
+  </div>
+</nav>
+```
+
+![](/static/screenshots/navbar.png)
+
 ## Colors
 
 A few default colors have been provided. Feel free to change them. Use them in any class!
