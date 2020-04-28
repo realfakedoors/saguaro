@@ -45,3 +45,25 @@ A simple container with a shadow, a border and some padding.
 ```
 
 ![](/static/screenshots/box.png)
+
+## Colors
+
+A few default colors have been provided. Feel free to change them. Use them in any class!
+
+```sh
+<h1>Default Colors:</h1>
+
+<div class="background-saguaro-green">background-saguaro-green</div>
+<div class="background-primary">background-primary</div>
+<div class="background-secondary">background-secondary</div>
+<div class="background-warning">background-warning</div>
+<div class="background-alert">background-alert</div>
+
+<div class="text-saguaro-green">text-saguaro-green</div>
+<div class="text-primary">text-primary</div>
+<div class="text-secondary">text-secondary</div>
+<div class="text-warning">text-warning</div>
+<div class="text-alert">text-alert</div>
+```
+
+![](/static/screenshots/default-colors.png)

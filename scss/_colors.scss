@@ -1,1 +1,19 @@
 $saguaro-green: #5eb91e;
+
+$primary: #17a529;
+$secondary: #412292;
+$warning: #d5b91e;
+$alert: #d5271e;
+
+.background-saguaro-green {background-color: $saguaro-green;}
+.background-primary {background-color: $primary;}
+.background-secondary {background-color: $secondary;}
+.background-warning {background-color: $warning;}
+.background-alert {background-color: $alert;}
+
+.text-saguaro-green {color: $saguaro-green;}
+.text-primary {color: $primary;}
+.text-secondary {color: $secondary;}
+.text-warning {color: $warning;}
+.text-alert {color: $alert;}
+

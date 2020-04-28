@@ -53,6 +53,36 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+.background-saguaro-green {
+  background-color: #5eb91e; }
+
+.background-primary {
+  background-color: #17a529; }
+
+.background-secondary {
+  background-color: #412292; }
+
+.background-warning {
+  background-color: #d5b91e; }
+
+.background-alert {
+  background-color: #d5271e; }
+
+.text-saguaro-green {
+  color: #5eb91e; }
+
+.text-primary {
+  color: #17a529; }
+
+.text-secondary {
+  color: #412292; }
+
+.text-warning {
+  color: #d5b91e; }
+
+.text-alert {
+  color: #d5271e; }
+
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif; }
 
