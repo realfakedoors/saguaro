@@ -68,6 +68,50 @@ A basic nav with a dropdown item available.
 
 ![](/static/screenshots/navbar.png)
 
+## Form Elements
+
+Standard generic form controls.
+
+```sh
+<div class="form">
+  <div class="field">
+    <label class="label">Text Field</label>
+    <input class="text-input" type="text" placeholder="enter text input...">
+  </div>
+  <div class="field">
+    <label class="label">Select Box</label>
+    <select class="select-input">
+      <option>Dropdown</option>
+      <option>Choose from options</option>
+      <option>Make a selection!</option>
+    </select>
+  </div>
+  <div class="field">
+    <label class="label">Text Area</label>
+    <textarea class="text-area" placeholder="a larger, resizable text box."></textarea>
+  </div>
+  <div class="field">
+    <label class="label">
+      <input type="checkbox" class="checkbox">
+        Checkbox
+    </label>
+  </div>
+  <div class="field">
+    <label class="label">Radio Buttons</label>
+    <label class="label radio-label">
+      <input class="radio-button" type="radio" name="question">
+      Yes
+    </label>
+    <label class="label radio-label">
+      <input class="radio-button" type="radio" name="question">
+      No
+    </label>
+  </div>
+</div>
+```
+
+![](/static/screenshots/form-elements.png)
+
 ## Colors
 
 A few default colors have been provided. Feel free to change them. Use them in any class!
