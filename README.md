@@ -17,7 +17,7 @@ sass saguaro.scss output.css
 * [Navbar](#navbar)
 * [Form Elements](#form-elements)
 * [Buttons](#buttons)
-* [divider](#divider)
+* [Divider](#divider)
 * [Hero](#hero)
 * [Image](#image)
 * [Card](#card)
