@@ -9,6 +9,20 @@ Adjust to your heart's content, and compile with Sass:
 sass saguaro.scss output.css
 ```
 
+# Documentation
+
+* [Colors](#colors)
+* [Container](#container)
+* [Box](#box)
+* [Navbar](#navbar)
+* [Form Elements](#form-elements)
+* [Buttons](#buttons)
+* [divider](#divider)
+* [Hero](#hero)
+* [Image](#image)
+* [Card](#card)
+* [Media Object](#media-object)
+
 ## Colors
 
 A few default colors have been provided. Feel free to change them. Use them in any class!
@@ -199,3 +213,49 @@ An image container with a title and subtitle.
 ```
 
 ![](/static/screenshots/image.png)
+
+## Card
+
+A container with a main image and content below.
+
+```sh
+<div class="card">
+  <div class="card-image">
+    <img src="/omega_weapon.jpg">
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="img">
+        <img src="/omega_weapon.jpg">
+      </div>
+      <p class="title">Omega Weapon</p>
+      <p class="subtitle">one BAD mamma-jamma.</p>
+    </div>
+    <div class="content">
+      Omega Weapon is an optional "super-boss" in Final Fantasy VIII. To prepare for this fight, you are highly advised to max every stat you possibly can.
+    </div>
+  </div>
+</div>
+```
+
+![](/static/screenshots/card.png)
+
+## Media Object
+
+A useful image/title/subtitle combo.
+
+```sh
+<div class="box">
+  <div class="media">
+    <div class="img">
+      <img src="ralph.jpg">
+    </div>
+    <div class="media-content">
+      <p class="title">Ralph The Chocobo</p>
+      <p class="subtitle">@chocobo_ralph</p>
+    </div>
+  </div>
+</div>
+```
+
+![](/static/screenshots/media.png)

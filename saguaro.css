@@ -163,6 +163,40 @@ html {
 .has-dropdown:hover .navbar-dropdown {
   display: flex; }
 
+.card {
+  width: 320px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02); }
+  .card > .card-image {
+    width: 100%;
+    height: 260px; }
+    .card > .card-image > img {
+      width: 100%;
+      height: 100%; }
+
+.media {
+  height: 60px;
+  width: 100%;
+  margin: 10px 0 0; }
+  .media > .img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    float: left; }
+    .media > .img > img {
+      height: 100%;
+      width: 100%; }
+  .media > .media-content {
+    display: flex;
+    flex-direction: column; }
+    .media > .media-content > .title {
+      font-size: 22px;
+      font-weight: 800; }
+    .media > .media-content > .subtitle {
+      margin-top: 10px;
+      font-size: 12px; }
+
 .form {
   position: relative;
   padding: 0 20px;
