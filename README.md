@@ -9,6 +9,28 @@ Adjust to your heart's content, and compile with Sass:
 sass saguaro.scss output.css
 ```
 
+## Colors
+
+A few default colors have been provided. Feel free to change them. Use them in any class!
+
+```sh
+<h1>Default Colors:</h1>
+
+<div class="background-saguaro-green">background-saguaro-green</div>
+<div class="background-primary">background-primary</div>
+<div class="background-secondary">background-secondary</div>
+<div class="background-warning">background-warning</div>
+<div class="background-alert">background-alert</div>
+
+<div class="text-saguaro-green">text-saguaro-green</div>
+<div class="text-primary">text-primary</div>
+<div class="text-secondary">text-secondary</div>
+<div class="text-warning">text-warning</div>
+<div class="text-alert">text-alert</div>
+```
+
+![](/static/screenshots/default-colors.png)
+
 ## Container
 
 A responsive, all-purpose content box.
@@ -112,24 +134,68 @@ Standard generic form controls.
 
 ![](/static/screenshots/form-elements.png)
 
-## Colors
+## Buttons
 
-A few default colors have been provided. Feel free to change them. Use them in any class!
+A simple, all-purpose button.
 
 ```sh
-<h1>Default Colors:</h1>
-
-<div class="background-saguaro-green">background-saguaro-green</div>
-<div class="background-primary">background-primary</div>
-<div class="background-secondary">background-secondary</div>
-<div class="background-warning">background-warning</div>
-<div class="background-alert">background-alert</div>
-
-<div class="text-saguaro-green">text-saguaro-green</div>
-<div class="text-primary">text-primary</div>
-<div class="text-secondary">text-secondary</div>
-<div class="text-warning">text-warning</div>
-<div class="text-alert">text-alert</div>
+<div class="buttons">
+  <button class="button background-saguaro-green">Submit</button>
+  <button class="button background-primary">Submit</button>
+  <button class="button background-secondary">Submit</button>
+  <button class="button background-warning">Submit</button>
+  <button class="button background-alert">Submit</button>
+</div>
+<div class="buttons">
+  <button class="button text-saguaro-green">Submit</button>
+  <button class="button text-primary">Submit</button>
+  <button class="button text-secondary">Submit</button>
+  <button class="button text-warning">Submit</button>
+  <button class="button text-alert">Submit</button>
+</div>
 ```
 
-![](/static/screenshots/default-colors.png)
+![](/static/screenshots/buttons.png)
+
+## Divider
+
+A prominent horizontal rule for separating content.
+
+```sh
+<h2>A divider such as the one below</h2>
+<hr class="divider">
+<h2>can help you separate your content!</h2>
+```
+
+![](/static/screenshots/divider.png)
+
+## Hero
+
+A banner to showcase content.
+
+```sh
+<div class="hero">
+  <h1 class="hero-title">Hero Title</h1>
+  <h2 class="hero-subtitle">hero subtitle</h2>
+</div>
+```
+
+![](/static/screenshots/hero.png)
+
+## Image
+
+An image container with a title and subtitle.
+
+```sh
+<div class="image-container">
+  <img src="coolspot.png">
+  <h2 class="image-text">
+    Cool Spot (or simply Spot) was a <br /> mascot for 7 Up in the United States.
+  </h2>
+  <h3 class="image-subtext">
+    He is an anthropomorphic version of the red dot in the 7 Up logo.
+  </h3>
+</div>
+```
+
+![](/static/screenshots/image.png)

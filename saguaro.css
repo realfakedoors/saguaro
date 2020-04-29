@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -72,12 +73,62 @@ html {
 @media (max-width: 768px) {
   .container {
     width: 415px; } }
+.buttons {
+  display: flex;
+  padding: 10px; }
+  .buttons .button {
+    margin-right: 5px; }
+
+.button {
+  height: 33px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  font: 14px sans-serif;
+  font-weight: 800;
+  color: white; }
+
 .box {
   display: inline-block;
   padding: 5px 10px;
   border: 1px solid #ddd;
   border-radius: 2px;
   box-shadow: 3px 3px 3px; }
+
+.divider {
+  width: 90%;
+  height: 3px;
+  margin: 10px auto;
+  border: none;
+  background-color: #888; }
+
+.hero {
+  display: block;
+  width: 80%;
+  padding: 5px;
+  margin: 50px auto; }
+  .hero > .hero-title {
+    font-size: 42px;
+    font-weight: 800;
+    margin: 10px 0; }
+  .hero > .hero-subtitle {
+    font-size: 22px; }
+
+.image-container {
+  display: inline-block;
+  padding: 10px;
+  border: solid 1px #777;
+  border-radius: 5px; }
+  .image-container > img {
+    width: 100%;
+    border: solid 1px #888;
+    border-radius: 3px; }
+  .image-container > .image-text {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700; }
+  .image-container > .image-subtext {
+    margin-top: 10px;
+    font-size: 12px; }
 
 .navbar {
   height: 60px;
